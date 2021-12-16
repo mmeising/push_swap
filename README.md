@@ -3,11 +3,12 @@
 Sorting algorithm project with two stacks and a restricted set of
 sorting instructions available of which I'm only using the following:
 
-pa - take the top element of stack_b and put it on top of stack_a
-pb - take the top element of stack_a and put it on top of stack_b
-ra - rotate up all elements in stack_a, the first element becomes the last
-rra - rotate down all elements in stack_a, the last element becomes the first
-sa - swap the first two elements of stack_a
+- pa - take the top element of stack_b and put it on top of stack_a
+- pb - take the top element of stack_a and put it on top of stack_b
+- ra - rotate up all elements in stack_a, the first element becomes the last
+- rra - rotate down all elements in stack_a, the last element becomes the first
+- sa - swap the first two elements of stack_a
+
 
 The goal of push_swap is to sort any valid input list of integer numbers in the
 least amount of steps possible.
@@ -17,7 +18,9 @@ argument.
 Example:
 
 ./push_swap 1 3 2
+
 becomes a stack_a from top to bottom like this:
+
 1
 3
 2
