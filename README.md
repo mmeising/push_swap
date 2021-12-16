@@ -28,7 +28,9 @@ becomes a stack_a from top to bottom like this:
 To sort it, we could use sa, ra:
 
 1			3			1
+
 3	-sa->	1	-ra->	2
+
 2			2			3
 
 In this case, we didn't even need to use stack_b as an intermediate.
